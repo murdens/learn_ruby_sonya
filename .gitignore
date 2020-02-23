@@ -1,0 +1,10 @@
+.idea
++.DS_Store*
+Gemfile
+*.lock
+Rakefile
+rspec_config.rb
+.rspec
+.bundle/
+assets/
+spec/
