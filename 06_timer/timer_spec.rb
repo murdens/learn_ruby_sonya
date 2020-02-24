@@ -19,9 +19,9 @@ describe "Timer" do
   end
 
   describe 'time_string' do
-    it "should display 0 seconds as 00:00:00" do
-      @timer.seconds = 0
-      expect(@timer.time_string).to eq("00:00:00")
+   it "should display 0 seconds as 00:00:00" do
+     @timer.seconds = 0
+    expect(@timer.time_string).to eq("00:00:00")
     end
 
     it "should display 12 seconds as 00:00:12" do
